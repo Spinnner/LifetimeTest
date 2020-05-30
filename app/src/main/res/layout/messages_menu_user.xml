@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorBackgroundInput"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvMessageBtn1"
+        style="@style/TextViewMessageButton"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_message_control_active"
+        android:text="@string/message_button_1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvMessageBtn2"
+        style="@style/TextViewMessageButton"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_message_control_not_active"
+        android:text="@string/message_button_2"
+        android:textColor="@color/colorTextMessageButtonInactive" />
+
+    <TextView
+        android:id="@+id/tvMessageBtn3"
+        style="@style/TextViewMessageButton"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_message_control_not_active"
+        android:text="@string/message_button_3"
+        android:textColor="@color/colorTextMessageButtonInactive" />
+
+</LinearLayout>

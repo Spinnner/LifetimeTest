@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#0036f5</color>
+    <color name="colorBackgroundDate">#cdd7fd</color>
+    <color name="colorBackgroundInput">#f6f8fd</color>
+    <color name="colorDate">#0036f5</color>
+    <color name="colorPrimary">#0036f5</color>
+    <color name="colorPrimaryDark">#1c389d</color>
+    <color name="colorTextMessageBot">#2f3854</color>
+    <color name="colorTextMessageBotIcon">#b8c4ea</color>
+    <color name="colorTextMessageButtonInactive">#2f3854</color>
+    <color name="colorTextMessageUser">#ffffff</color>
+
+</resources>

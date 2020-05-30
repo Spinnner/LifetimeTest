@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMessagesMenuBotItem"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/bg_messages_menu_bot_item"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_message_bot_icon"
+        android:clickable="false"
+        android:padding="8dp"
+        tools:src="@drawable/ic_bottle" />
+
+    <TextView
+        android:id="@+id/tvMessageBotItem"
+        style="@style/TextViewMessageButton"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/ivIcon"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:textColor="@color/colorTextMessageBot"
+        tools:text="@string/message_menu_1" />
+
+</RelativeLayout>
