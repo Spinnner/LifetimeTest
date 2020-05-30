@@ -1,4 +1,3 @@
-Lifetime android test project
 
 ![](images/screen1.png)
 
